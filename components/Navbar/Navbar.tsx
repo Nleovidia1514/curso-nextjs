@@ -1,17 +1,16 @@
-import React from 'react'
 import Link from 'next/link'
+import React from 'react'
+import { Anchor, Nav } from './styles'
 
 export default function Navbar() {
   return (
-    <nav>
-      <menu>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-        <Link href="/about">
-          <a>About</a>
-        </Link>
-      </menu>
-    </nav>
+    <Nav>
+      <Link href="/">
+        <Anchor>Home</Anchor>
+      </Link>
+      <Link href="/about">
+        <Anchor>About</Anchor>
+      </Link>
+    </Nav>
   )
 }
