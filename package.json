@@ -9,7 +9,6 @@
   "scripts": {
     "dev": "next",
     "dev:inspect": "npm --node-options=--inspect=0.0.0.0:9229 run dev",
-    "vercel-build": "yarn build",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc --noEmit"
